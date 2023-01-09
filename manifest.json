@@ -1,0 +1,23 @@
+{
+    "name": "Template extension",
+    "version": "1.0.0",
+    "description": "",
+    "manifest_version": 3,
+    "author": "Aranza Cabrera",
+    "icons":{
+        "128":"icon.png"
+    },
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "(template)"
+    },
+    "background":{
+        "service_worker": "background.js"
+    },
+    "permissions":[
+        "activeTab",
+        "storage",
+        "scripting",
+        "tabs"
+    ]
+}
